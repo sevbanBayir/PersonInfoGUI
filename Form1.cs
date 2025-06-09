@@ -11,12 +11,7 @@ namespace PersonInfoGUI
 
         public Form1()
         {
-            InitializeComponent();
             persons = new List<Person>();
-        }
-
-        private void InitializeComponent()
-        {
             this.Text = "Personel Bilgi Sistemi";
             this.Size = new System.Drawing.Size(600, 400);
 
